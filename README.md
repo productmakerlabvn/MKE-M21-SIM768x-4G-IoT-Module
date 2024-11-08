@@ -1,13 +1,11 @@
 # MKE-M21 SIM768x 4G SMS/CALL IoT Module
 
 ## Giới thiệu
-
-MKE-M21 SIM768x 4G SMS/CALL IoT Module giúp các bạn có thể dễ dàng gọi điện hoặc gửi tin nhắn SMS qua nền tảng 4G thay thế cho các module SIM sử dụng 2G cũ hiện đã ngưng hoạt động, module được thiết kế nhỏ gọn với khối SIM và khối nguồn tách rời giúp bạn dễ dàng lựa chọn phiên bản có khối nguồn hoặc không có khối nguồn đi kèm (phiên bản không có khối nguồn sẽ tương thích về kích thước và chuẩn chân với module SIM800C 2G cũ), thích hợp với các ứng dụng IoT, cảnh báo, gọi điện, nhắn tin qua 4G.
+MKE-M21 SIM768x 4G SMS/CALL IoT Module giúp các bạn có thể dễ dàng gọi điện hoặc gửi tin nhắn SMS qua nền tảng 4G thay thế cho các module SIM sử dụng 2G cũ hiện đã ngưng hoạt động, module được thiết kế nhỏ gọn với khối SIM và khối cấp nguồn tách rời giúp bạn dễ dàng lựa chọn phiên bản kèm khối cấp nguồn hoặc không kèm khối cấp nguồn (phiên bản không kèm khối cấp nguồn sẽ tương thích về kích thước và chuẩn chân với module SIM800C 2G cũ), thích hợp với các ứng dụng IoT, cảnh báo, gọi điện, nhắn tin qua 4G.
 
 MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
 
 ## Thông số kỹ thuật
-
 - Model: MKE-M21 SIM768x 4G SMS/CALL IoT Module
 - IC chính: SIM768x
 - Sử dụng 4G LTE CAT1
@@ -23,18 +21,19 @@ MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Rob
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 
 ## Hình ảnh sản phẩm
-
-
+Khối SIM768x:
 ![MKE_M21_SIM768x](/image/sim768x1.png)
-
+Khối cấp nguồn:
 ![MKE_M21_SIM768x](/image/sim768x2.png)
-
-## Kích thước sản phẩm
-
+Khi gắn khối SIM7680x kèm khối cấp nguồn:
 ![MKE_M21_SIM768x](/image/sim768x3.png)
 
+## Kích thước sản phẩm
+![MKE_M21_SIM768x](/image/sim768x4.png)
+![MKE_M21_SIM768x](/image/sim768x5.png)
+
 ## Các chân tín hiệu
-Khi chỉ sử dụng module SIM độc lập không kèm khối cấp nguồn:
+Chân tín hiệu trên khối SIM7680x:
 - NET:	Chân trạng thái được nối với led STT
 - NC:	Chân không kết nối
 - MIC+: Chân Micro
@@ -48,7 +47,7 @@ Khi chỉ sử dụng module SIM độc lập không kèm khối cấp nguồn:
 - TX: chân UART TX tương thích 3.3/5VDC (có qua mạch chuyển mức tín hiệu)
 - GND: chân cấp nguồn âm 0VDC
 
-Khi sử dụng kèm khối cấp nguồn qua cổng XH2.54:
+Chân tín hiệu khi sử dụng kèm khối cấp nguồn:
 - GND:	Chân cấp nguồn âm 0VDC
 - 5V:	Chân cấp nguồn dương 5~24VDC
 - TX: Chân UART TX
