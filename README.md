@@ -18,7 +18,8 @@ MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Rob
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
-- Chuẩn kết nối: connector XH2.54 4Pins
+- Chuẩn kết nối: connector XH2.54 4Pins / GPIO
+- Chuẩn kết nối Antenna: Ipex
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 
 ## Hình ảnh sản phẩm
