@@ -9,6 +9,7 @@ MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Rob
 - Model: MKE-M21 SIM768x 4G SMS/CALL IoT Module
 - IC chính: SIM768x
 - Sử dụng 4G LTE CAT1
+- Sử dụng 4G Nano SIM
 - Điện áp hoạt động:
   - Cấp nguồn trực tiếp vào khối SIM, không đi kèm khối cấp nguồn: 3.7~4VDC
   - Cấp nguồn qua khối cấp nguồn: 5~24VDC
