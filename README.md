@@ -12,8 +12,9 @@ MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Rob
 - IC chính: SIM768x
 - Sử dụng 4G LTE CAT1
 - Điện áp hoạt động:
-  - 24VDC
-- Dòng điện tiêu thụ khi hoạt động: khoảng 300mA
+  - Cấp nguồn trực tiếp vào khối SIM, không đi kèm khối cấp nguồn: 3.7~4VDC
+  - Cấp nguồn qua khối cấp nguồn: 5~24VDC
+- Dòng điện tiêu thụ khi hoạt động: Trung bình 300mA, khi gọi hoặc nhắn tin có những thời điểm có thể lên tới 1A.
 - Chuẩn giao tiếp: UART
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
@@ -22,6 +23,7 @@ MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Rob
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 
 ## Hình ảnh sản phẩm
+
 
 ![MKE_M21_SIM768x](/image/sim768x1.png)
 
@@ -32,9 +34,23 @@ MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Rob
 ![MKE_M21_SIM768x](/image/sim768x3.png)
 
 ## Các chân tín hiệu
+Khi chỉ sử dụng module SIM độc lập không kèm khối cấp nguồn:
+- NET:	Chân trạng thái được nối với led STT
+- NC:	Chân không kết nối
+- MIC+: Chân Micro
+- MIC-: Chân Micro
+- SP+: Chân Speaker
+- SP-: Chân Speaker
+- ATN: Chân Antenna
+- 4V: Chân cấp nguồn dương từ 3.7~4VDC
+- RST: Chân Reset của
+- RX: chân UART RX tương thích 3.3/5VDC (có qua mạch chuyển mức tín hiệu)
+- TX: chân UART TX tương thích 3.3/5VDC (có qua mạch chuyển mức tín hiệu)
+- GND: chân cấp nguồn âm 0VDC
 
+Khi sử dụng kèm khối cấp nguồn qua cổng XH2.54:
 - GND:	Chân cấp nguồn âm 0VDC
-- 5V:	Chân cấp nguồn dương 5VDC
+- 5V:	Chân cấp nguồn dương 5~24VDC
 - TX: Chân UART TX
 - RX: Chân UART RX
 
