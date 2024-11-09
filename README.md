@@ -14,7 +14,7 @@ MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Rob
   - Cấp nguồn trực tiếp vào khối SIM, không đi kèm khối cấp nguồn: 3.7~4VDC
   - Cấp nguồn qua khối cấp nguồn: 5~24VDC
 - Dòng điện tiêu thụ khi hoạt động: Trung bình 300mA, khi gọi hoặc nhắn tin có những thời điểm có thể lên tới 1A.
-- Chuẩn giao tiếp: UART
+- Chuẩn giao tiếp: UART, Baudrate được thiết lập mặc định 9600 (Quan trọng: Test thực tế với Arduino set baudrate cao như 115200 truyền nhận rất dễ lỗi khiến module hoạt động kém ổn định) 
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
@@ -53,11 +53,6 @@ Chân tín hiệu khi sử dụng kèm khối cấp nguồn:
 - 5V:	Chân cấp nguồn dương 5~24VDC
 - TX: Chân UART TX
 - RX: Chân UART RX
-
-## Hướng dẫn sử dụng
-
-### Hướng dẫn sử dụng với Arduino qua giao tiếp UART
-[![MKE_M21_SIM768x](/image/sim768x5.png)](https://www.youtube.com/watch?v=4Q3aEIDNlz0)
 
 ## Hỗ trợ và liên hệ:
 
