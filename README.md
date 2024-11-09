@@ -31,8 +31,7 @@ Khi gắn khối SIM7680x kèm khối cấp nguồn:
 ![MKE_M21_SIM768x](/image/sim768x3.png)
 
 ## Kích thước sản phẩm
-![MKE_M21_SIM768x](/image/sim768x4.png)
-![MKE_M21_SIM768x](/image/sim768x5.png)
+![MKE_M21_SIM768x](/image/sim768x4.jpg)
 
 ## Các chân tín hiệu
 Chân tín hiệu trên khối SIM7680x:
@@ -58,7 +57,7 @@ Chân tín hiệu khi sử dụng kèm khối cấp nguồn:
 ## Hướng dẫn sử dụng
 
 ### Hướng dẫn sử dụng với Arduino qua giao tiếp UART
-[![MKE_M21_SIM768x](/image/sim768x3.png)](https://www.youtube.com/watch?v=4Q3aEIDNlz0)
+[![MKE_M21_SIM768x](/image/sim768x5.png)](https://www.youtube.com/watch?v=4Q3aEIDNlz0)
 
 ## Hỗ trợ và liên hệ:
 
