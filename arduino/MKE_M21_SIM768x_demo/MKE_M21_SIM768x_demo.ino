@@ -7,7 +7,8 @@ String SDT="0934xxxxxx"; // Biến lưu trữ số điện thoại
 String feedback; // Biến lưu giá trị phan hồi từ SIM
 
 void setup() {
-  Serial.begin(9600);  // Khởi động serial với baudrate mặc định là 115200 (MKE-M21 SIM768x)
+  Serial.begin(9600);  // Khởi động serial với baudrate mặc định được thiết lập là 9600 (MKE-M21 SIM768x)
+  //Lưu ý: Thừ nghiệm thực tế với Arduino Baudtrate cao 115200 module hoạt động kém ổn định!!!
   Serial.println("Waiting for 4G Signal on 20s"); //Chờ SIM nhận sóng 15s
   delay(15000);
   SIMsetup();
