@@ -24,6 +24,9 @@ MKE-M21 SIM768x 4G SMS/CALL IoT Module thuộc hệ sinh thái phần cứng Rob
 - Chuẩn kết nối Antenna: Ipex
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 
+## Video hướng dẫn sử dụng
+[![MKE_M21_SIM768x](/image/sim768x5.png)](https://www.youtube.com/watch?v=FYb1NnckQT8)
+
 ## Hình ảnh sản phẩm
 Khối SIM768x:
 ![MKE_M21_SIM768x](/image/sim768x1.png)
